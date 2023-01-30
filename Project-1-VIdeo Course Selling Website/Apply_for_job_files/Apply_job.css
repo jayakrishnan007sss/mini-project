@@ -1,0 +1,150 @@
+/* body starts */
+body,ul{
+    margin: 0;
+}
+body{
+    width: 1434px;
+}
+/*body ends */
+
+
+
+/* header starts*/
+nav ul li{
+    display: inline-block;
+}
+#nav{
+    background-color: rgb(16, 115, 235);
+}
+#a-logoname{
+    color: white;
+}
+#logoname{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: xx-large;
+}
+#search{
+    margin-left: 80px;
+    height: 40px;
+    width: 80px;
+    border-radius: 8px;
+}
+#searchbar{
+    height: 40px;
+    width: 320px;
+    margin-bottom: 15px;
+    border-radius: 11px;
+}
+#a-home{
+    margin-left: 200px;
+    color: white;
+    font-size: large;
+}
+#a-about,#a-gallery,#a-contact,#a-signup{
+    margin-left: 40px;
+    color: white;
+    font-size: large;
+}
+#academy{
+    position: absolute;
+    top: 38px;
+    left: 120px;
+    font-size: large;
+    color: white;
+    border-radius: 3px;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+/*header ends */
+
+/* main starts */
+main div{
+    height: 750px;
+    width: 500px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    margin-left: 100px;
+}
+main{
+    display: flex;
+    background-image: url(./bgimage.jfif);
+    padding-left: 160px;
+}
+#content-1{
+    margin-right: 100px;
+}
+
+.submit,.reset{
+    font-size: 25px;
+    margin-right: 50px;
+    border-radius: 7px;
+}
+#form{
+    background-color:aliceblue;
+    width: 900px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer starts */
+footer{
+    height: 300px;
+    background-color: black;
+    display: flex;
+}
+footer div{
+    color: white;
+    width: 200px;
+    padding-top: 30px;
+    margin-right: 50px;
+}
+#f-div1-c li{
+    margin: 10px;
+}
+footer div img{
+    width: 100px;
+    height: 100px;
+}
+/*footer ends */

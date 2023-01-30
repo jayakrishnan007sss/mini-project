@@ -1,0 +1,256 @@
+/* body starts */
+body,ul{
+    margin: 0;
+}
+body{
+    width: 1434px;
+}
+/*body ends */
+
+
+
+/* header starts*/
+nav ul li{
+    display: inline-block;
+}
+#nav{
+    background-color: rgb(16, 115, 235);
+    position: sticky;
+    top: 0px;
+}
+
+#a-logoname{
+    color: white;
+}
+
+#logoname{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+#search{
+    margin-left: 80px;
+    height: 40px;
+    width: 80px;
+    border-radius: 8px;
+}
+
+#searchbar{
+    height: 40px;
+    width: 310px;
+    margin-bottom: 15px;
+    border-radius: 11px;
+}
+
+#a-home{
+    margin-left: 110px;
+    color: white;
+    font-size: large;
+}
+
+#login {
+    color: white;
+    margin-left: 35px;
+}
+
+#a-about,#a-contact,#a-signup{
+    margin-left: 40px;
+    color: white;
+    font-size: large;
+}
+#academy{
+    position: absolute;
+    top: 38px;
+    left: 120px;
+    font-size: large;
+    color: white;
+    border-radius: 3px;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+/*header ends */
+
+
+
+/* main starts
+    article-1 starts */    
+#article-1{
+    height: 500px;
+    border-top: 1px solid rgb(16, 115, 235);
+    background-image: url(../Home_Images/bgimage.jpg);
+    background-size: cover;
+    
+}
+#article-1-content{
+    background-color: white;
+    width: 470px;
+    height: 130px;
+    margin-top: 160px;
+    margin-left: 900px;
+}
+#content-1{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 10px;
+    display: inline-block;
+    padding-left: 20px;
+}
+#content-2{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin: 0;
+}
+/* article-1 endss */  
+
+
+/* article-2 starts */  
+#c2-heading{
+    text-align:center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+#article-2-content{
+    margin-left: 70px;
+    height: 750px;
+    margin-right: 70px;
+    background-image: linear-gradient(rgb(238, 244, 226),rgb(173, 207, 220),rgb(223, 173, 227));
+    box-shadow: 0 0 3px 3px skyblue;
+}
+#article-3-content{
+    margin-left: 100px;
+    height: 500px;
+    margin-right: 100px;
+    border: 1px solid black;
+}
+
+#iframe-topics{
+    width: 1230px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    margin-left: 30px;
+}
+#para1{
+    font-size:20px;
+    line-height: 0px;
+    margin-left: 35px;
+}
+#iframe-display{
+    width: 1230px;
+    height: 560px;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+/* article-2 ends */ 
+
+/* article-3 starts */ 
+#article-3{
+    margin-left: 70px;
+    height: 710px;
+    margin-right: 70px;
+    background-image: linear-gradient(rgb(225, 217, 193),rgb(221, 235, 219),rgb(238, 217, 225));
+    box-shadow: 0 0 3px 3px skyblue;
+}
+#a3-heading{
+    text-align:center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+#a3-content-1{
+    width: 230px;
+    height: 190px;
+    margin: 40px;
+}
+#a3-content-1 img{
+    height: 190px;
+    width: 230px;
+}
+#section div{
+    box-shadow: 0 0 3px 3px rgb(166, 10, 57);
+}
+#section{
+    display: flex;
+    margin-left: 20px;
+}
+#section div:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    box-shadow: 0 0 3px 6px burlywood;
+
+}
+/* article-3 ends */ 
+
+/* article-4 starts */
+#article-4{
+    margin-left: 70px;
+    height: 500px;
+    margin-right: 70px;
+    background-image: linear-gradient(rgb(233, 218, 227),rgb(235, 219, 227),rgb(173, 173, 165));
+    box-shadow: 0 0 3px 3px skyblue;
+    display: flex;
+}
+#a4-c2{
+    text-align: center;
+    display: inline-block;
+    margin-top: 140px;
+    height: 150px;
+    width: 400px;
+    margin-left: 40px;
+}
+#a4-c2 h1{
+    font-size: 30px;
+    text-align: left;
+}
+#a4-c2 p{
+    font-size: 19px;
+    text-align: left;
+}
+
+#a4-c1 img{
+    width: 550px;
+    height: 350px;
+    margin: 60px
+}
+#a4-c2 button{
+    height: 35px;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+}
+#a4-c2 button a{
+    color: white;
+}
+/*article-4 ends */
+/* main ends */
+
+/*footer starts */
+footer{
+    height: 300px;
+    background-color: black;
+    display: flex;
+}
+footer div{
+    color: white;
+    width: 200px;
+    padding-top: 30px;
+    margin-right: 50px;
+}
+#f-div1-c li{
+    margin: 10px;
+}
+footer div img{
+    width: 100px;
+    height: 100px;
+}
+/*footer ends */
+
+
+
+
+
+
+

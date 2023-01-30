@@ -1,0 +1,175 @@
+/* body starts */
+body,ul{
+    margin: 0;
+}
+body{
+    width: 1434px;
+}
+/*body ends */
+
+
+
+/* header starts*/
+nav ul li{
+    display: inline-block;
+}
+#nav{
+    background-color: rgb(16, 115, 235);
+}
+#a-logoname{
+    color: white;
+}
+#logoname{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: xx-large;
+}
+#search{
+    margin-left: 80px;
+    height: 40px;
+    width: 80px;
+    border-radius: 8px;
+}
+#searchbar{
+    height: 40px;
+    width: 320px;
+    margin-bottom: 15px;
+    border-radius: 11px;
+}
+#a-home{
+    margin-left: 200px;
+    color: white;
+    font-size: large;
+}
+#a-about,#a-gallery,#a-contact,#a-signup{
+    margin-left: 40px;
+    color: white;
+    font-size: large;
+}
+#academy{
+    position: absolute;
+    top: 38px;
+    left: 120px;
+    font-size: large;
+    color: white;
+    border-radius: 3px;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+/*header ends */
+
+/* main starts */
+#content-1 img{
+    width: 1435px;
+}
+#heading{
+    text-align: center;
+    font-size: 45px;
+}
+#content-2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#content-2 p{
+    text-align: center;
+    font-size: large;
+}
+#con-3{
+    display: flex;
+}
+#con-3 div{
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    padding:10px;
+    text-align: center;
+    border-radius: 15px;
+}
+#con-3-div-1{
+    background-color: rgb(135, 39, 224);
+    color: white;
+    transition: 0.7s;
+}
+#con-3-div-2{
+    background-color: rgb(224, 224, 39);
+    transition: 0.7s;
+}
+#con-3-div-3{
+    background-color: rgb(18, 212, 108);
+    color: white;
+    transition: 0.7s;
+}
+#con-3-div-1 p,#con-3-div-2 p,#con-3-div-3 p{
+    font-size: x-large;
+}
+#con-3-div-1:hover{
+    transform: scale(1.2);
+}
+#con-3-div-2:hover{
+    transform: scale(1.2);
+}
+#con-3-div-3:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer starts */
+footer{
+    height: 300px;
+    background-color: black;
+    display: flex;
+}
+footer div{
+    color: white;
+    width: 200px;
+    padding-top: 30px;
+    margin-right: 50px;
+}
+#f-div1-c li{
+    margin: 10px;
+}
+footer div img{
+    width: 100px;
+    height: 100px;
+}
+/*footer ends */

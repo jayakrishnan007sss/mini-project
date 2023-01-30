@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Apply_for_job_files/Apply_job.css">
+    <title>Document</title>
+    <style>
+        th{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav id="nav">
+            <ul>
+                <li id="logoname"> <a id="a-logoname" href="./Home.html">Tech Skills</a> </li>
+                <li> <button id="search"> <a href="#"> Explore </a> </button> </li>
+                <li id="searchbar"> <input type="search" id="searchbar" placeholder="What do you want to learn?"> </li>
+                <li> <a id="a-home" href="./Home.html">Home</a> </li>
+                <li> <a id="a-about" href="./About.html">About</a> </li>
+                <li> <a id="a-signup" href="./Signup.html">Signup</a> </li>
+                <li> <a id="a-contact" href="./Contact.html">Contact</a> </li>
+                <li> <a id="a-contact" href="./Apply_for_job.html">Apply for job</a></li>
+                <li id="academy"> Academy </li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+        <div id="form">
+            <table border="0" style="width: 700px;">
+                <form action="#" method="post">
+                    <tr>
+                        <th style="height: 40px; background-color: aliceblue;;text-align: center;" colspan="2">Application form</th>
+                    </tr>
+                    <tr>
+                        <th style="width: 150px;">
+                            <label for="fname">First Name:</label>
+                        </th>
+                        <td>
+                            <input placeholder="Enter your first name"  style="width: 300px;" type="text" id="fname" name="fullname">
+                            (max 20 char a-z and A-Z)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="lname">Last Name:</label>
+                        </th>
+                        <td>
+                            <input placeholder="Enter your last name"   style="width: 300px;" type="text" name="lastname" id="lname">
+                            (max 20 char a-z and A-Z)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <th>
+                            <label for="dob">Date of Birth:</label>
+                        </th>
+                        <td>
+                            <input type="date" id="dob" name="dateofbirth">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="gender">Gender:</label>
+                        </th>
+                        <td>
+                            <input type="radio" value="Male" name="gen" id="gender">Male
+                            <input type="radio" value="Female" name="gen" id="gender">Female
+                        </td> 
+                    </tr>
+                    
+                    <tr>
+                        <th>
+                            <label for="emailid">Email id:</label>
+                        </th>
+                        <td>
+                            <input placeholder="Enter your email"   style="width: 300px" type="email" id="emailid" name="email">
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <th>
+                            <label for="phno">Phone no:</label>
+                        </th>
+                        <td>
+                            <input   style="width: 300px" type="tel" id="phno" name="phonenum" maxlength="10">
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <th>
+                            <label for="Address">Address:</label>
+                        </th>
+                        <td>
+                            <textarea name="address" id="Address" cols="38" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="City">City:</label>
+                        </th>
+                        <td>
+                            <input style="width: 300px" type="text" id="City" name="city">(max 20 char a-z and A-Z)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="Pincode">Pin code:</label>
+                        </th>
+                        <td>
+                            <input style="width: 300px" type="text" id="Pincode" name="pincode">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="State">State:</label>
+                        </th>
+                        <td>
+                            <input style="width: 300px" type="text" id="State" name="state">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="Country">Country:</label>
+                        </th>
+                        <td>
+                            <input style="width: 300px" type="text" id="Country" name="country">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="Hobbies[]">Hobbies:</label>
+                        </th>
+                        <td>
+                            <input type="checkbox" value="Drawing" id="Hobbies[]" name="hobbie">Drawing
+                            <input type="checkbox" value="Singing" id="Hobbies[]" name="hobbie">Singing
+                            <input type="checkbox" value="Dancing" id="Hobbies[]" name="hobbie">Dancing <br>
+                            <input type="checkbox" value="Others" id="Hobbies[]" name="hobbie">Others
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="Qualification">Qualification:</label>
+                        </th>
+                        <td>
+                            <table border="0">
+                                <tr>
+                                    <th> Sl.no </th>
+                                    <th >Examination</th>
+                                    <th style="text-align: center;">Board</th>
+                                    <th  style="text-align: center;">Percentage</th>
+                                    <th  style="text-align: center;">Year of Passing</th>
+                                </tr>
+                                <tr>
+                                    <td>01</td>
+                                    <td>
+                                        <label for="classX[]">Class X</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" id="classX[]" name="class10">
+                                    </td>
+                                    <td>
+                                        <input type="text" id="classX[]" name="class10">
+                                    </td>
+                                    <td>
+                                        <input type="text" id="classX[]" name="class10">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>02</td>
+                                    <td>
+                                        <label for="classXII[]">Class XII</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" id="classXII[]" name="class12">
+                                    </td>
+                                    <td>
+                                        <input type="text" id="classXII[]" name="class12">
+                                    </td>
+                                    <td>
+                                        <input type="text" id="classXII[]" name="class12">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>03</td>
+                                    <td>
+                                        <label for="graduation">Graduation</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" id="graduation" name="graduate">
+                                    </td>
+                                    <td>
+                                        <input type="text" id="graduation" name="graduate">
+                                    </td>
+                                    <td>
+                                        <input type="text" id="graduation" name="graduate">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>04</td>
+                                    <td>
+                                        <label for="Master">Master</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" id="Master" name="Head">
+                                    </td>
+                                    <td>
+                                        <input type="text" id="Master" name="Head">
+                                    </td>
+                                    <td>
+                                        <input type="text" id="Master" name="Head">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="Course[]">Job Applied for:</label>
+                        </th>
+                        <td>
+                            <input type="checkbox" value="javafresher" id="Course[]" name="Cours">Java
+                            <input type="checkbox" value="frontendfresher" id="Course[]" name="Cours">SQL
+                            <input type="checkbox" value="php fresher" id="Course[]" name="Cours">Front End
+                            <input type="checkbox" value="netwoking" id="Course[]" name="Cours">Back End
+                        </td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th style="text-align: center;">
+                            <input class="submit" type="submit">
+                            <input class="reset" type="reset" name="" id="">
+                        </th>
+                    </tr>
+                </form>
+            </table>
+        </div>
+    </main>
+
+
+    <footer>
+        <div>
+            <ul id="f-div1-c" type="none">
+                <li>Tech Skills Business</li>
+                <li>Teach on Tech Skill</li>
+                <li>Get the App</li>
+                <li>About us</li>
+                <li>Contat us</li>
+            </ul>
+           
+
+        </div>
+
+        <div>
+            <ul id="f-div1-c" type="none">
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>Help and Support</li>
+                <li>Affiliate</li>
+                <li>Investors</li>
+            </ul>
+        </div>
+
+        <div>
+            <ul id="f-div1-c" type="none">
+                <li>Terms</li>
+                <li>Privacy policy</li>
+                <li>Cookie Settings</li>
+                <li>Sitemap</li>
+                <li style="width:200px;">Accessibility Statement</li>
+            </ul>
+        </div>
+       
+        
+        <div>
+            <a href="./Home.html">
+                <img id="f-div-c2" src="./Home_files/Home_Images/logo.jfif" alt="">
+            </a>
+        </div>
+        <div>
+            <p style="text-align: right; color: white;">&copy; 2022 TechSkill inc, <br> All rights reserved</p>
+            <br><br><br>
+        </div>
+</footer>
+</body>
+</html>
